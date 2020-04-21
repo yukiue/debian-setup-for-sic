@@ -37,6 +37,19 @@ debian setup for senior in college
 
 12. ホーム画面に戻り、上記で作成した仮想マシンの「起動」をクリックすると Debian が起動する(はず)
 
+## Guest Additions
+1. 以下のコマンドを実行する
+   ```shell
+   sudo apt update
+   sudo apt install gcc make perl linux-headers-$(uname -r)
+   ```
+   
+2. VirtualBox の 「デバイス」→「Guest Additions CD イメージの挿入」をクリックする
+
+3. 「実行する」を選択し、パスワードを入力する
+
+4. 「Press Return to close this window...」と表示されたら、Enter を押す
+
 ## 参考
 - [VirtualBox](https://www.virtualbox.org/)
 
