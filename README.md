@@ -1,6 +1,6 @@
-# debian-setup-for-sic
+# virtualbox-setup
 
-debian setup for senior in college
+debian on virtualbox
 
 # Debian Download
 
